@@ -1,0 +1,143 @@
+*{
+    font-family:Helvetica;
+    background-color: black;
+    color: seashell;  
+  }
+  body, footer{
+    opacity: 0.9;
+    font-size: 22px;
+  }
+  /*header and Nav*/
+  header{
+    width:100%;
+    top:0;
+    display: flex;
+    position:fixed;
+    z-index:1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    
+  }
+  nav{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    
+  }
+  .navItems{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+  }
+  header img{
+    height: 50px;
+    margin-left: 10px;
+    
+  }
+  
+  /*Mission*/
+  .BackgroundandMission{
+    padding-top: 69px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    margin-bottom: 70px;
+   
+  }
+  .mission{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .mission h2, h4{
+    height: 20px;
+    padding-top: 0px;
+    margin: 15px;
+    
+    
+  }
+  /*Tea of the month*/
+  div h2, h4{
+    text-align: center;
+  }
+  .products img{
+    width: 300px;
+    height: 200px;
+    padding: 0px 10px;
+    margin-top: 10px;
+  }
+  .products{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width:1000px;
+    align-content: space-between;
+    justify-content: center;
+    margin: auto;
+  }
+  .products h4{
+    text-align: center;
+    margin-top: 0px;
+    padding-top:10px;
+  }
+  
+  /*Locations*/
+  .flex-container h2{
+    background-color: transparent;
+    margin-bottom:0%
+  }
+  .flex-container{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+    
+  } 
+
+  .branches{
+    width:1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    background-color: transparent;
+    margin: none;
+
+  }
+  .branches div{
+    width: 300px;
+    opacity:1;
+    padding-top: 0px;
+    text-align: center;
+    margin: 15px 20px;
+  }
+
+  .contact{
+    height: 200px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .contact h3{
+    margin-top: 7px;
+  }
+  
+  footer{
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 0px;
+  }
